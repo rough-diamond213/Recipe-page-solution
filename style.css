@@ -12,29 +12,27 @@ body{
 }
 
 .container{
+  width: 45%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  margin: 5% 20%;
-  padding: 0 3%;
+  margin: 5% auto;
+  padding: 0 2%;
 }
 
 .image-omelette{
   width: 100%;
   border-radius: 20px;
-  margin: 50px 0;
+  margin-top: 40px;
 }
 
 .recipe>h1{
   font-family: "Young Serif", serif;
-  font-weight: 400 1px solid;
-  font-style: normal;
+  font-weight: 400 ;
+  padding: 15px 0;
 }
 .recipe>p{
   opacity: 75%;
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 16px;
-  font-style: normal;
   line-height: 2;
 }
 
@@ -45,9 +43,6 @@ body{
   border-radius: 20px;
   line-height: 3;
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 16px;
-  font-style: normal;
 }
 
 .preptime h3{
@@ -65,9 +60,6 @@ body{
   margin-top: 3%;
   line-height: 2;
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 16px;
-  font-style: normal;
   padding-bottom: 20px;
   border-bottom: hsl(30, 18%, 87%) 1px solid;
 }
@@ -77,30 +69,8 @@ body{
 .nutrition>h2{
   color:hsl(14, 45%, 36%) ;
   font-family: "Young Serif", serif;
-  font-weight: 400 1px solid;
-  font-style: normal;
+  font-weight: 400;
 }
-
-
-.number{
-  font-size: large;
-  font-family: "Outfit", sans-serif;
-  margin: 0 15px;
-  color: hsl(332, 51%, 32%);
-  font-weight: bolder;
-}
-
-/*.preptime li:before,
-.ingredients li::before{
-  content: ' \002E';
-  margin: 0 15px;
-  color: hsl(332, 51%, 32%);
-}
-
-.instructions li::before{
-
-}
-*/
 
 .ingredients ul, 
 .instructions ol{
@@ -112,9 +82,6 @@ body{
   margin-top: 3%;
   line-height: 2;
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 16px;
-  font-style: normal;
 }
 
 .nutrition p, td{
@@ -137,9 +104,6 @@ td{
   opacity: 100%;
   color:hsl(14, 45%, 36%);
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 16px;
-  font-style: normal;
 }
 
 
@@ -206,6 +170,5 @@ td{
     
   table{
     padding: 3%;
-  }
-        
+  }    
 }
