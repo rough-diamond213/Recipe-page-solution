@@ -182,12 +182,12 @@ td{
   .preptime{
     padding: 3%;
     line-height: 2; 
-    width: 90%;
+    width: 85%;
     margin: auto;
   }
     
   .preptime ul{
-    padding: 3%;
+    padding-left: 5%;
   }
     
   .ingredients,
@@ -196,11 +196,6 @@ td{
     line-height: 2;
     width: 90%;
     margin: auto;
-  }
-    
-  .ingredients ul, 
-  .instructions ol{
-    padding: 3%;
   }
     
   .nutrition{
