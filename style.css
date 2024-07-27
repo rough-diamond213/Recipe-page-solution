@@ -40,6 +40,7 @@ body{
 
 .preptime{
   margin-top: 4%;
+  padding: 3%;
   background-color: hsl(330, 100%, 98%);
   border-radius: 20px;
   line-height: 3;
@@ -51,11 +52,11 @@ body{
 
 .preptime h3{
   color: hsl(332, 51%, 32%);
-  margin-left: 5%;
+  margin: 0 2%;
 }
 
 .preptime ul{
-  margin-left: 8%;
+  margin-left: 4%;
   opacity: 70%;
 }
 
@@ -81,10 +82,30 @@ body{
 }
 
 
+.number{
+  font-size: large;
+  font-family: "Outfit", sans-serif;
+  margin: 0 15px;
+  color: hsl(332, 51%, 32%);
+  font-weight: bolder;
+}
+
+/*.preptime li:before,
+.ingredients li::before{
+  content: ' \002E';
+  margin: 0 15px;
+  color: hsl(332, 51%, 32%);
+}
+
+.instructions li::before{
+
+}
+*/
+
 .ingredients ul, 
-.instructions ol{
-  margin-left: 2%;
+.instructions ul{
   opacity: 70%;
+  margin: 0 25px;
 }
 
 .nutrition{
