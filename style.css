@@ -103,7 +103,7 @@ body{
 */
 
 .ingredients ul, 
-.instructions ul{
+.instructions ol{
   opacity: 70%;
   margin: 0 25px;
 }
