@@ -8,17 +8,20 @@
 }
 
 body{
-  background-color: hsl(30, 54%, 90%);  
-  height: 100vh;
-  width: 100vw;
+  background-color: hsl(30, 54%, 90%); 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .container{
   width: 45%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  margin: 5% auto;
+  margin: 2% 0;
   padding: 0 2%;
+  height: auto;
 }
 
 .image-omelette{
