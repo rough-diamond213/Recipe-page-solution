@@ -85,6 +85,17 @@ body{
 padding-left: 15px;
 }
 
+.ingredients>ul>li::marker,
+.instructions>ol>li::marker{
+  color:hsl(14, 45%, 36%) ;
+  font-weight: 800;
+}
+
+.preptime>ul>li::marker{
+  color: hsl(332, 51%, 32%);
+  font-weight: 800;
+}
+
 .nutrition{
   margin-top: 3%;
   line-height: 2;
