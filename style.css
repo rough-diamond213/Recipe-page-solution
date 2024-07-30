@@ -9,6 +9,8 @@
 
 body{
   background-color: hsl(30, 54%, 90%);  
+  height: 100vh;
+  width: 100vw;
 }
 
 .container{
